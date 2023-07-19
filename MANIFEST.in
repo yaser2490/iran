@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include iran *.css
+recursive-include iran *.csv
+recursive-include iran *.html
+recursive-include iran *.ico
+recursive-include iran *.js
+recursive-include iran *.json
+recursive-include iran *.md
+recursive-include iran *.png
+recursive-include iran *.py
+recursive-include iran *.svg
+recursive-include iran *.txt
+recursive-exclude iran *.pyc
